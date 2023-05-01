@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "whoop-logger-app"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Cherkashin <mr.d.fagot@gmail.com>"]
+license = "GNU GENERAL PUBLIC LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.6"
+fastapi = {extras = ["all"], version = "^0.94.0"}
+alembic = "^1.10.2"
+dotenv = "^0.0.5"
+pydantic = "^1.10.6"
+uvicorn = "^0.21.1"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+black = "^23.1.0"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

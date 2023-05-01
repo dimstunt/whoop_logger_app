@@ -1,0 +1,47 @@
+('lifestyle', 'Airplane', 'Самолет', 1),
+('lifestyle', 'Alcohol', 'Алкоголь', 2),
+('lifestyle', 'Caffeine', 'Кофеин', 2),
+('lifestyle', 'Marijuana', 'Марихуанна', 2),
+('lifestyle', 'Masturbation', 'Мастурбация', 1),
+('lifestyle', 'Sex', 'Секс', 1),
+('lifestyle', 'Tobacco', 'Табак', 2),
+('Recovery', 'Massage', 'Массаж', 2),
+('Recovery', 'Meditation', 'Медитация', 2),
+('Recovery', 'Sauna', 'Сауна', 2),
+('Recovery', 'Melatonin', 'Мелатонин', 2)
+
+
+lifestyle
+	Путешествие на самолете
+		Travel on a plane?
+	Алкоголь
+		Have any alcoholic drinks?
+		Как много выпито (в 40мл этанола/ед)
+	Кофеин
+		Have any caffeine?
+		Как много кофе (в 45мг/ед)
+	Марихуанна
+		Use marijuana in any form?
+		Как много (во вдохах)
+	Мастурбация
+		Masturbate?
+	Секс
+		Engage in sexual activity?
+		Когда последний раз?
+	Табак
+		Use tobacco in any form?
+		Сколько?
+		Когда последний раз?
+Recovery
+	Массаж
+		Receive massage therapy?
+		Сколько минут?
+	Медитация
+		Meditate?
+		Сколько минут?
+	Сауна
+		Use a sauna?
+		Сколько минут?
+	Мелатонин
+		Take a melatonin supplement?
+		Сколько мг
